@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Khand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
+    font-family: 'Open Sans', sans-serif;
     background-color: #3CAEA3;
     color: #F6D55C;
 }
 
 h1 {
-    font-family: Khand;
+    font-family: 'Open Sans', sans-serif;
     margin: 10px;
     user-select: none;
 }
@@ -137,3 +138,7 @@ table {
 div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_length label, th {
     color: #20639B;
     font-weight: bold; }
+    
+table.dataTable span.highlight {
+    background-color: #FFFFFF;
+    color: #3CAEA3; }
