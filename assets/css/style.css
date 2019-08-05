@@ -72,22 +72,26 @@ h1 {
     padding: 0 5px 2px 3px;
     text-decoration: bold !important;
     font-weight: bold;
-    transition: all .2s ease-in-out; }
+    transition: all .2s ease-in-out;
+}
 
 .link-style-3:hover {
     background-image: linear-gradient(to bottom, #158cba 0, #158cba 100%);
     background-position: 0 100%; 
     background-size: 2px 100%;
     color: #fff; 
-    transition: all .2s ease-in-out !important; }
+    transition: all .2s ease-in-out !important;
+}
     
 .table-striped>tbody>tr:nth-of-type(odd) {
     background-color: #20639B;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+}
     
 .table-striped>tbody>tr:nth-of-type(even) {
     background-color: #20639B;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+}
     
 .table-striped>tbody>tr:nth-of-type(odd):hover {
     background-color: #FFFFFF;
@@ -95,50 +99,67 @@ h1 {
     
 .table-striped>tbody>tr:nth-of-type(even):hover {
     background-color: #FFFFFF;
-    color: #3CAEA3; }
+    color: #3CAEA3;
+}
 
 .table-striped>tbody>tr:nth-of-type(odd):hover a {
     background-color: #FFFFFF;
-    color: #3CAEA3; }
+    color: #3CAEA3;
+}
 
 .table-striped>tbody>tr:nth-of-type(even):hover a {
     background-color: #FFFFFF;
-    color: #3CAEA3; }
+    color: #3CAEA3;
+}
 
 a {
     color:#FFFFFF;
     font-weight: bold;
-    text-decoration:none }
+    text-decoration:none
+}
     
 .pagination>li>a, .pagination>li>a:hover, .form-control, .pagination>.disabled>a, .form-control.input-sm {
-    color: #3CAEA3; }
+    color: #3CAEA3;
+}
     
 .pagination>.active>a, .pagination>.active>a:hover {
-    background-color: #3CAEA3; }
+    background-color: #3CAEA3;
+}
     
 .form-control {
-    border: 1px solid #20639B; }
+    border: 1px solid #20639B;
+}
         
 .form-control::-moz-placeholder{
     color:#3CAEA3;
-    opacity:1 }
+    opacity:1
+}
 
 .form-control:-ms-input-placeholder{
     color:#3CAEA3; }
 
 .form-control::-webkit-input-placeholder{
-    color:#3CAEA3; }
+    color:#3CAEA3;
+}
 
 .table-bordered, .table-bordered>thead>tr>th {
-    border: none; }
+    border: none; 
+}
 
 table {
-    background-color: #F6D55C; }
+    background-color: #F6D55C;
+}
     
 div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_length label, th {
     color: #20639B;
-    font-weight: bold; }
+    font-weight: bold;
+}
     
 table.dataTable span.highlight {
     background-color: #FFFFFF;
-    color: #3CAEA3; }
+    color: #3CAEA3;
+}
+
+td a:focus {
+    color: inherit;
+}
