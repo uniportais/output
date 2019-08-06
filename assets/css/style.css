@@ -118,12 +118,13 @@ a {
     text-decoration:none
 }
     
-.pagination>li>a, .pagination>li>a:hover, .form-control, .pagination>.disabled>a, .form-control.input-sm {
+.pagination>li>a, .pagination>li>a:hover, .pagination>li>a:focus, .form-control, .pagination>.disabled>a, .form-control.input-sm {
     color: #3CAEA3;
 }
     
 .pagination>.active>a, .pagination>.active>a:hover, .pagination>.active>a:focus {
     background-color: #3CAEA3;
+    border-color: #FFFFFF;
 }
     
 .form-control {
